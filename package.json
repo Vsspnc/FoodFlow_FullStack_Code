@@ -11,7 +11,8 @@
     "dev:seed": "concurrently \"npm run dev\" \"npm run seed:watch\"",
     "test": "node --test",
     "backup:db": "node scripts/backup-db.js",
-    "backup:all": "node scripts/backup-all.js"
+    "backup:all": "node scripts/backup-all.js",
+    "report:code": "node scripts/generate-line-by-line-report.js"
   },
   "repository": {
     "type": "git",
